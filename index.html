@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Change Calculator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <!-- Write your markup here -->
+  <h1 id="change">Change Calculator</h1>
+  <table class="table table-bordered">
+    <tr>
+      <th>How much is due?</th>
+      <th> What did the customer give?</th>
+
+    </tr>
+
+    <tr>
+      <td>
+        <input id="amount-due"  type="text" placeholder="Sale Total">
+      </td>
+      <td>
+        <input type="text"  id="amount-received" placeholder="Customer Input">
+      </td>
+    </tr>
+  </table>
+<table id="table2"class="table table-bordered">
+    <tr>
+      <td>Twenties</td>
+      <td>Tens</td>
+      <td>Fives</td>
+      <td>Dollars</td>
+    </tr>
+    <tr>
+      <td id="twenties-output">0</td>
+      <td id="tens-output">0</td>
+      <td id="fives-output">0</td>
+      <td id="dollars-output">0</td>
+    
+    <tr>
+      <td>Quarters</td>
+      <td>Dimes</td>
+      <td>Nickels</td>
+      <td>Pennies</td>
+    </tr>
+    <tr>
+      <td id="quarters-output">0</td>
+      <td id="dimes-output">0</td>
+      <td id="nickels-output">0</td>
+      <td id="pennies-output">0</td>
+    </tr>
+
+  </table>
+  
+
+  <button id="calculate-change" class="btn btn-danger">Calculate</button>
+  <span></span>
+  <p id="output"></p>
+
+
+
+  <!-- Don't forget to add your <script> tag here -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>

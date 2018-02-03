@@ -1,0 +1,27 @@
+h1 {
+    color: black;
+    text-align: center;
+    padding-left: 100px;
+}
+body {
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 1200px;
+    background: url(https://i.imgur.com/RrWHG9K.jpg);
+    background-size: cover;
+    
+    font-family: source;
+}
+
+
+#output{
+    color: red;
+    padding-top: 15px;
+}
+#change{
+    font-size: 45px;
+    text-shadow: -1px 3px 5px black;
+}
+#table2 {
+    padding-left: 50px;
+}
